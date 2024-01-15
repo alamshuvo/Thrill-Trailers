@@ -25,7 +25,9 @@
 .special {
   color: var(--btn-color);
 }
-
+img{
+    width: 100%;
+}
 /* header area css start */
 /* nav bar area start */
 .nav-bar-area {
@@ -43,6 +45,9 @@
 }
 .nav-bar-text-logo h2 {
   font-size: 2rem;
+}
+.nav-bar-text-logo img{
+    width: 10%;
 }
 .nav-bar-menue {
   width: 50%;
