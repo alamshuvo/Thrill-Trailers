@@ -70,5 +70,17 @@
     display: none;
   }
   /* banner section end */
+
+  /* popular tour area */
+  .popular-tour-area{
+    flex-direction: column;
+  }
+  .popular-tour-text{
+    width: 100%;
+    line-height: normal;
+  }
+  .popular-tour-img{
+    width: 100%;
+}
     
 }
