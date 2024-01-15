@@ -55,6 +55,9 @@
 #menue-list li {
   list-style: none;
 }
+.burger{
+    display: none;
+}
 .list {
   text-decoration: none;
   color: var(--colorful-text);
