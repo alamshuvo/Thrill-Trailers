@@ -10,14 +10,18 @@
 
 /* common shared css style  */
 :root{
-    --primary-color:#FF5400;
+    --btn-color:#FF5400;
     --text-color:#fff;
     --font-size:16px;
+    --colorful-text:#424247;
 }
 .container{
     max-width: 1180px;
     width: 80%;
     margin: 0 auto;
+}
+.special{
+    color: var(--btn-color);
 }
 
 
@@ -28,3 +32,35 @@
 
 /* header area css start */
 /* nav bar area start */
+.nav-bar-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-text-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-bar-text-logo h2{
+    font-size: 2rem;
+}
+.nav-bar-menue{
+    width: 50%;
+}
+#menue-list {
+    display:flex;
+    gap: 40px;
+}
+#menue-list li {
+    list-style: none;  
+}
+.list{
+    text-decoration: none;
+    color: var(--colorful-text);
+    font-weight: 400;
+}
+
+/* banner section start */
