@@ -3,15 +3,28 @@
         display: none;
         
     }
-    .burger{
-        font-size: 5rem;
+    #menue-list{
+        gap: 0px;
+    }
+    #menue-list .burger{
+        font-size: 2rem;
+        display: block;
+        color:gray;
+        
     }
     .nav-bar-text-logo {
-        width: 50%;
+        /* width: 50%; */
         display: flex;
         align-items: center;
         gap: 10px;
       }
+      .nav-bar-text-logo h2 {
+        font-size: 1rem;
+        width: 100px;
+      }
+       .nav-bar-text-logo img{
+        width: 25px;
+       }
 /* banner section responsive here */
 #banner{
     height: 100%;
@@ -53,7 +66,8 @@
     color: var(--text-color);
   }
   .fa-solid {
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    display: none;
   }
   /* banner section end */
     
