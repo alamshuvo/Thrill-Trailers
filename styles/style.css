@@ -25,9 +25,9 @@
 .special {
   color: var(--btn-color);
 }
-img{
+/* img{
     width: 100%;
-}
+} */
 /* header area css start */
 /* nav bar area start */
 .nav-bar-area {
@@ -314,5 +314,45 @@ button:hover{
   height: 100px;
   right:2%;
   bottom: 7%;
+}
+/* footer area */
+.footer-area{
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 50px;
+  text-align: center;
+  padding: 100px;
+}
+.top-area{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer-area p{
+  text-align: center;
+  color: var(--colorful-text);
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.icon{
+  margin-bottom: 20px;
+}
+.icon a{
+  font-size: 3rem;
+  margin-right: 5px;
   
+}
+.twitter{
+  color: aqua;
+}
+.facebook{
+  color: blue;
+}
+.youtube{
+  color: red;
+}
+.github{
+  color: black;
 }

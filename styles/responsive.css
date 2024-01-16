@@ -98,11 +98,15 @@
 }
 .newsletter-input{
   width: 100%;
-  padding: 40px;
+  padding: 30px;
 }
 .newsletter-img {
   width: 100%;
   
+}
+/* footer area */
+.footer-area{
+  padding: 100px;
 }
     
 }
