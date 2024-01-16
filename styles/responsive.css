@@ -169,6 +169,51 @@
   width: 100%;
   margin: 0 auto
 }
+/* deals and discount */
+.icon-div{
+ flex-direction: column;
+}
+.section-card{
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 100%;
+  height: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.first-section,.third-section,.second-section{
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.deals-text h2{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+h2 {
+  margin-bottom: 5px;
+  font-weight: 800;
+  font-size: 1rem;
+}
+p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+p.colorful {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.popular{
+  padding: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+
 /* vedio section */
 .vedio-title{
   font-size: 1.7rem;

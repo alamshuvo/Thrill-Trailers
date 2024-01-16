@@ -451,6 +451,96 @@
   margin: 0 auto;
   padding: 30px;
 }
+/* deals and discount */
+#deals{
+  margin-top: 100px;
+}
+.deals-text{
+  text-align: center;
+}
+.deals-text h2{
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.deals-text p{
+  font-weight: 400;
+  color: var(--colorful-text);
+}
+.first-section{
+  background: url("../images/Group\ 39.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.second-section{
+  background: url("../images/Group\ 40.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 50px;
+  
+}
+.third-section{
+  background: url("../images/Group\ 39.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+.section-card{
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 550px;
+  height: 350px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 30px;
+}
+.icon-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.test{
+  font-size: 1.2rem;
+  color: var(--btn-color);
+}
+h2 {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+p {
+  margin-top: 10px;
+  font-weight: 200;
+}
+p.colorful {
+  margin-bottom: 10px;
+  color:var(--btn-color);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 /* vedio section */
 #vedio{
   margin-top: 100px;
