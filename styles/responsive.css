@@ -1,3 +1,38 @@
+/* tablet responsive */
+@media screen and (min-width:601px) and (max-width:992px) {
+  .nav-bar-menue {
+    width: 100%;
+  }
+  .nav-bar-text-logo {
+    flex-direction: column;
+  }
+  .nav-bar-area {
+    flex-direction: column;
+  }  
+  /* popular tour area */
+  
+.popular-tour-area {
+flex-direction: column;
+}
+.popular-tour-text {
+  width: 100%;
+}
+.popular-tour-img {
+  width: 100%;
+}
+/* vedio section */
+.vedio-section-area{
+  flex-direction: column;
+}
+.text-section{
+  width: 100%;
+}
+.vedio-title{
+  font-size: 2.5rem;
+}
+}
+
+/* mobile responsive */
 @media screen and (max-width:600px) {
     .list{
         display: none;
@@ -129,8 +164,6 @@
   grid-row: 7 /span 1;
   height: 170px;
   width: 100%;
-}
-.destination-title{
 }
 .destination-dris{
   width: 300px;
