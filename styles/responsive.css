@@ -82,5 +82,12 @@
   .popular-tour-img{
     width: 100%;
 }
+
+/* choce us section */
+.card{
+  width: 90%;
+  flex-basis: 90%;
+  margin: 0 auto;
+}
     
 }
