@@ -108,5 +108,7 @@
 .footer-area{
   padding: 100px;
 }
-    
+.icon,.top-area{
+  flex-direction: column;
+}
 }

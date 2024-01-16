@@ -338,6 +338,9 @@ button:hover{
 }
 .icon{
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon a{
   font-size: 3rem;
