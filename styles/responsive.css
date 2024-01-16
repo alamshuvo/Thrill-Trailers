@@ -82,6 +82,59 @@
   .popular-tour-img{
     width: 100%;
 }
+/* destination */
+
+.destination-area{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7 ,1fr);
+  height: 100%;
+  
+}
+.maldiiv{
+   grid-column: 1/span 1;
+  grid-row: 1 /span 1;
+  height: 170px;
+}
+.indonisia{
+  grid-column: 1/span 1;
+  grid-row: 2 /span 1;
+  height: 170px;
+}
+.Srilanka{
+  grid-column: 1/span 1;
+  grid-row: 3 /span 1;
+  height: 170px;
+}
+.North-america{
+  grid-column: 1/span 1;
+  grid-row: 4 /span 1;
+  height: 170px;
+}
+.Kashmir{
+  grid-column: 1/span 1;
+  grid-row: 5 /span 1;
+  height: 170px;
+}
+.Bangladesh{
+  grid-column: 1/span 1;
+  grid-row: 6 /span 1;
+  height: 170px;
+}
+.Bandarban{
+  grid-column: 1/span 1;
+  grid-row: 7 /span 1;
+  height: 170px;
+}
+.destination-title{
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.destination-dris{
+  font-size: 1rem;
+}
+ 
+
+
 
 /* choce us section */
 .card{
@@ -111,4 +164,5 @@
 .icon,.top-area{
   flex-direction: column;
 }
+
 }
