@@ -213,6 +213,9 @@ p.colorful {
   margin-top: 10px;
   width: 50%;
 }
+.all-btn.popular{
+  width: 80%;
+}
 
 /* vedio section */
 .vedio-title{
