@@ -108,7 +108,7 @@
   color: var(--text-color);
 }
 
-.banner-btn-section {
+.banner-input-section {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
   padding: 20px;
@@ -117,7 +117,28 @@
 .banner-button {
   width: 150px;
   height: 45px;
-  background-color: #fff;
+  background-color:var(--btn-color);
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+}
+.banner-button-sp {
+  width: 150px;
+  height: 45px;
+  background-color:var(--text-color);
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+}
+#banner-button-sp {
+  width: 150px;
+  height: 45px;
+  background-color:var(--text-color);
+  color: var(--colorful-text);
   padding: 10px;
   border-radius: 8px;
   border: none;
@@ -322,7 +343,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding:20px;
+  padding:20px; 
 }
 .deals-title,
 .deals-dris {
