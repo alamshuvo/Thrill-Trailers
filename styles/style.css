@@ -46,8 +46,8 @@
 .nav-bar-text-logo h2 {
   font-size: 2rem;
 }
-.nav-bar-text-logo img{
-    width: 45px;
+.nav-bar-text-logo img {
+  width: 45px;
 }
 .nav-bar-menue {
   width: 50%;
@@ -60,8 +60,8 @@
 #menue-list li {
   list-style: none;
 }
-.burger{
-    display: none;
+.burger {
+  display: none;
 }
 .list {
   text-decoration: none;
@@ -114,7 +114,7 @@
   padding: 20px;
   margin: 0 auto;
 }
-.banner-button  {
+.banner-button {
   width: 150px;
   height: 45px;
   background-color: #fff;
@@ -131,238 +131,312 @@
   margin-left: 30px;
 }
 /* our popular tours start */
-#popular-tours{
-    margin-top: 50px;
+#popular-tours {
+  margin-top: 50px;
 }
 
-.popular-tour-area{
-    display: flex;
-    gap: 20px;
+.popular-tour-area {
+  display: flex;
+  gap: 20px;
 }
-.popular-tour-text{
-    width: 50%;
-    line-height: 25px;
-   
+.popular-tour-text {
+  width: 50%;
+  line-height: 25px;
 }
-.popular-tour-img{
-    width: 50%;
+.popular-tour-img {
+  width: 50%;
 }
-.popular-tour-img img{
-    width: 100%;
-    border-radius: 16px;
+.popular-tour-img img {
+  width: 100%;
+  border-radius: 16px;
 }
-.tour-title{
-    font-size: 2.5rem;
-    color: var(--colorful-text);
-    font-weight: 800;
-    margin-bottom: 24px;
+.tour-title {
+  font-size: 2.5rem;
+  color: var(--colorful-text);
+  font-weight: 800;
+  margin-bottom: 24px;
 }
-.tour-dris{
-    font-size: 1rem;
-    color: var(--colorful-text);
-    font-weight: 400;
-    margin-bottom: 15px;
+.tour-dris {
+  font-size: 1rem;
+  color: var(--colorful-text);
+  font-weight: 400;
+  margin-bottom: 15px;
 }
-.popular-tour-text ul li{
-    margin-left: 30px;
-    margin-bottom: 15px;
+.popular-tour-text ul li {
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
-.popular{
-    margin-top: 30px;
-    padding: 20px 35px;
-    background-color: var(--btn-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: 8px;
+.popular {
+  margin-top: 30px;
+  padding: 20px 35px;
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
 }
 /* destination section */
-#choce-our-destination{
+#choce-our-destination {
   width: 100%;
   margin-top: 100px;
   text-align: center;
 }
-.destination-title{
+.destination-title {
   font-size: 2rem;
   font-weight: 800;
-
 }
-.destination-dris{
+.destination-dris {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.destination-area{
+.destination-area {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   width: 100%;
   height: 700px;
   row-gap: 10px;
- 
 }
-.maldiiv{
-  background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/maldivs.png");
+.maldiiv {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/maldivs.png");
   background-position: center;
   background-repeat: no-repeat;
-  grid-column: 1/span 6;
-  grid-row: 1 /span 1;
-  color:#fff;
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 1;
+  color: #fff;
   background-size: cover;
   margin-right: 5px;
   border-radius: 10px;
- 
 }
-.indonisia{
-  background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/indonisia.png");
+.indonisia {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/indonisia.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 7/ span 13;
-  grid-row: 1 /span 1;
+  grid-column: 7 / span 13;
+  grid-row: 1 / span 1;
   border-radius: 10px;
-  color:#fff;
+  color: #fff;
 }
-.Srilanka{
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/srilanka.png");
+.Srilanka {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/srilanka.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 1/span 3;
-  grid-row: 2/span 1;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
   margin-right: 5px;
   border-radius: 10px;
-  color:#fff;
+  color: #fff;
 }
-.North-america{
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/north-ami.png");
+.North-america {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/north-ami.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 4/span 6;
-  grid-row: 2/span 1;
+  grid-column: 4 / span 6;
+  grid-row: 2 / span 1;
   margin-right: 5px;
   border-radius: 10px;
-  color:#fff;
+  color: #fff;
 }
-.Kashmir{
-  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/kashmir.png");
+.Kashmir {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/kashmir.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 10/span 3;
-  grid-row: 2/span 1;
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
   margin-right: 5px;
   border-radius: 10px;
-  color:#fff;
+  color: #fff;
 }
-.Bangladesh{
-  background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/bd.png");
+.Bangladesh {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bd.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 1/span 6;
-  grid-row: 3/span 1;
+  grid-column: 1 / span 6;
+  grid-row: 3 / span 1;
   margin-right: 5px;
   border-radius: 10px;
-  color:#fff;
+  color: #fff;
 }
-.Bandarban{
-  background:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/bandrban.png");
+.Bandarban {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../images/bandrban.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: 7/span 13;
-  grid-row: 3/span 1;
+  grid-column: 7 / span 13;
+  grid-row: 3 / span 1;
   margin-right: 5px;
   border-radius: 10px;
-  color:#fff;
- 
+  color: #fff;
 }
-.text{
- font-size: 1.5rem;
- position: relative;
- top: 50%;
+.text {
+  font-size: 1.5rem;
+  position: relative;
+  top: 50%;
+}
+
+/* best deal section */
+#best-travel-deals {
+  margin-top: 100px;
+  background: url("../images/card/cooll.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:20px;
+}
+.deals-title,
+.deals-dris {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.best-deal-card {
+  flex-basis: 32%;
+}
+.best-deal-card:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transform: rotate(45deg);
+  transition: 0.8s;
+  
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+.best-deal-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.best-deal-card p {
+  text-align: center;
+  margin-top: 10px;
+}
+.rate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 /* why choce us section */
 .top-text {
   text-align: center;
   margin-bottom: 25px;
-
 }
-.top-text h2{
+.top-text h2 {
   color: var(--colorful-text);
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 20px;
 }
-.top-text p{
+.top-text p {
   text-align: center;
   width: 50%;
   margin: 0 auto;
 }
-#why-choce-us{
+#why-choce-us {
   margin-top: 100px;
 }
-.card img{
+.card img {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
 }
-.card .choce-title{
+.card .choce-title {
   color: var(--colorful-text);
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 10px;
 }
-.card .choce-dris{
+.card .choce-dris {
   color: var(--colorful-text);
   line-height: 20px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.why-choce-us-area{
+.why-choce-us-area {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
-
 }
-.card{
+.card {
   width: 50%;
   flex-basis: 45%;
   margin: 0 auto;
 }
-.card-1{
+.card-1 {
   border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
   padding: 30px;
 }
-.card-2{
+.card-2 {
   border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.20);
+  border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
   padding: 30px;
 }
-.another{
+.another {
   border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.20);
+  border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
   margin: 0 auto;
   padding: 30px;
 }
 
 /* newsletter section  */
-#newsletter{
+#newsletter {
   margin-top: 100px;
 }
-.newsletter-area{
+.newsletter-area {
   display: flex;
   gap: 10px;
   justify-content: space-between;
 }
-.newsletter-input{
+.newsletter-input {
   width: 40%;
   padding: 40px;
   display: flex;
@@ -370,33 +444,32 @@
   gap: 20px;
   border: 1px solid salmon;
   border-radius: 10px;
-
 }
-.newsletter-input input{
+.newsletter-input input {
   border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-width: 90%;
-margin: 0 auto;
-height: 50px;
-text-align: center;
-border: none;
-}
-.newsletter-input button{
+  background: rgba(19, 19, 24, 0.05);
   width: 90%;
-margin: 0 auto;
-height: 50px;
-text-align: center;
-border: none;
-border-radius: 8px;
-background-color: var(--btn-color);
-color: var(--text-color);
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+  border: none;
 }
-button:hover{
+.newsletter-input button {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--btn-color);
+  color: var(--text-color);
+}
+button:hover {
   background-color: sandybrown;
   transition: 1s;
   cursor: pointer;
 }
-.newsletter-input h2{
+.newsletter-input h2 {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--colorful-text);
@@ -405,12 +478,11 @@ button:hover{
   width: 50%;
   position: relative;
 }
-.newsletter-img img{
+.newsletter-img img {
   width: 100%;
   height: 450px;
-  
 }
-.colorfull{
+.colorfull {
   background-color: var(--btn-color);
   border-radius: 10px;
   text-align: center;
@@ -421,50 +493,49 @@ button:hover{
   transform: rotate(-19.628deg);
   width: 200px;
   height: 100px;
-  right:2%;
+  right: 2%;
   bottom: 7%;
 }
 /* footer area */
-.footer-area{
+.footer-area {
   background: rgba(19, 19, 24, 0.05);
   margin-top: 50px;
   text-align: center;
   padding: 100px;
 }
-.top-area{
+.top-area {
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
-.footer-area p{
+.footer-area p {
   text-align: center;
   color: var(--colorful-text);
   font-weight: 400;
   margin-bottom: 10px;
   margin-top: 20px;
 }
-.icon{
+.icon {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icon a{
+.icon a {
   font-size: 3rem;
   margin-right: 5px;
-  
 }
-.twitter{
+.twitter {
   color: aqua;
 }
-.facebook{
-  color:rgb(9, 178, 245);
+.facebook {
+  color: rgb(9, 178, 245);
 }
-.youtube{
+.youtube {
   color: red;
 }
-.github{
+.github {
   color: black;
 }
