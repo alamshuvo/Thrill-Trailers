@@ -113,43 +113,46 @@
   background: rgba(255, 255, 255, 0.3);
   padding: 20px;
   margin: 0 auto;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  
 }
-.banner-button {
-  width: 150px;
-  height: 45px;
-  background-color:var(--btn-color);
-  color: var(--text-color);
-  padding: 10px;
+.banner-input-text{
+  width: 22%;
+  height: 50px;
   border-radius: 8px;
   border: none;
-  margin-right: 20px;
-}
-.banner-button-sp {
-  width: 150px;
-  height: 45px;
-  background-color:var(--text-color);
-  color: var(--text-color);
-  padding: 10px;
-  border-radius: 8px;
-  border: none;
-  margin-right: 20px;
-}
-#banner-button-sp {
-  width: 150px;
-  height: 45px;
-  background-color:var(--text-color);
+  text-align: center;
   color: var(--colorful-text);
-  padding: 10px;
+  
+}
+#when-input{
+  width: 22%;
+  height: 50px;
   border-radius: 8px;
   border: none;
-  margin-right: 20px;
+  color: var(--colorful-text);
 }
-.extra {
-  background-color: #ff5400;
-  color: var(--text-color);
+#select-input{
+  width: 22%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  color: var(--colorful-text);
 }
-.fa-solid {
-  margin-left: 30px;
+.banner-button{
+  width: 22%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--btn-color);
+  color: #fff;
+}
+.banner-button .fa-solid {
+  color: var(--colorful-text);
+  font-size: 5rem;
 }
 /* our popular tours start */
 #popular-tours {
